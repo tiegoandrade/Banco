@@ -4,7 +4,7 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		//Criação de objetos e chamadas de métodos.
+		/*Criação de objetos e chamadas de métodos.*/
 		ContaCorrente cc2 = new ContaCorrente(100.00);
 		ContaCorrente cc1 = new ContaCorrente(400);
 		cc1.depositar(500.00);
