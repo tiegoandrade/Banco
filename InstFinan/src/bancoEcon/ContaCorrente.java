@@ -5,12 +5,12 @@ public class ContaCorrente extends ContaBancaria {
 	/* Atributo que armazena o saldo de 
 	 * determinada conta após realizar ajustes.
 	 */
-	private double saldoFinal = 0.0;
+	private double saldoFinal;
 	
 	/* Atributo que armazena o imposto 
 	 * que recai sobre o saldo do correntista.
 	 */
-	private double imposto = 0.0;
+	private double imposto;
 	
 	/* Construtor que recebe um determinado valor com a abertura da conta. */
 	public ContaCorrente(double valor){

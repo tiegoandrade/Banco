@@ -4,7 +4,7 @@ package bancoEcon;
 public abstract class ContaBancaria {
 	
 	/* Atributo que armazena o saldo atual de determinada conta.*/
-	protected double saldoAtual = 0.0;
+	protected double saldoAtual;
 	
 	/* Método para realizar um depósito de determinada quantia. */
 	public void depositar(double valor){
