@@ -13,7 +13,7 @@ public class Aplicacao {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Depósito de R$" +  cc1.valorDepositado + " feito com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor Inválido " + e.getValorInvalido());
+						+ ". Valor Inválido " + e.getValorInvalido());
 		}
 		
 		try {
@@ -21,7 +21,7 @@ public class Aplicacao {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Depósito de R$" +  cc1.valorDepositado + " feito com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor Inválido: " + e.getValorInvalido());
+						+ ". Valor Inválido: " + e.getValorInvalido());
 		}
 		
 		try {
@@ -29,10 +29,10 @@ public class Aplicacao {
 			System.out.println("Saque realizado com sucesso!");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor Inválido " + e.getValorInvalido());
+						+ ". Valor Inválido " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo Atual da Conta R$" + e.getSaldoDisponivel());
+						+ ". Saldo Atual da Conta R$" + e.getSaldoDisponivel());
 		}
 		
 		try {
@@ -40,10 +40,10 @@ public class Aplicacao {
 			System.out.println("Saque realizado com sucesso!");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor Inválido " + e.getValorInvalido());
+						+ ". Valor Inválido " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
+						+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
 		}
 		
 		try {
@@ -51,34 +51,34 @@ public class Aplicacao {
 			System.out.println("Saque realizado com sucesso!");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor inválido: " + e.getValorInvalido());
+						+ ". Valor inválido: " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
+						+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
 		}
 		
 		try {
 			cc1.transferir(50, cc2);
 			System.out.println("Transferência de R$" + cc1.valorTransferido + " da Conta de " 
-								+ cc1.toString() + " para a Conta de " + cc2.toString() + " feita com sucesso");
+						+ cc1.toString() + " para a Conta de " + cc2.toString() + " feita com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor inválido: " + e.getValorInvalido());
+						+ ". Valor inválido: " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo disponível: " + e.getSaldoDisponivel());
+						+ ". Saldo disponível: " + e.getSaldoDisponivel());
 		}
 		
 		try {
 			cc1.transferir(50, cc2);
 			System.out.println("Transferência de R$" + cc1.valorTransferido + " da Conta de " 
-								+ cc1.toString() + " para a Conta de " + cc2.toString() + " feita com sucesso");
+						+ cc1.toString() + " para a Conta de " + cc2.toString() + " feita com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor inválido: " + e.getValorInvalido());
+						+ ". Valor inválido: " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + cc1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
+						+ ". Saldo Atual da conta R$" + e.getSaldoDisponivel());
 		}
 		
 		try {
@@ -103,7 +103,7 @@ public class Aplicacao {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Depósito de R$" +  ci1.valorDepositado + " feito com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
-					+ ". Valor Inválido " + e.getValorInvalido());
+						+ ". Valor Inválido " + e.getValorInvalido());
 		}
 		
 		try {
@@ -111,22 +111,22 @@ public class Aplicacao {
 			System.out.println("Saque realizado com sucesso!");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor Inválido " + e.getValorInvalido());
+						+ ". Valor Inválido " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo Atual da Conta R$" + e.getSaldoDisponivel());
+						+ ". Saldo Atual da Conta R$" + e.getSaldoDisponivel());
 		}
 		
 		try {
 			ci1.transferir(150.00, ci2);
 			System.out.println("Transferência de R$" + ci1.valorTransferido + " da Conta de " 
-								+ ci1.toString() + " para a Conta de " + ci2.toString() + " feita com sucesso");
+						+ ci1.toString() + " para a Conta de " + ci2.toString() + " feita com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Valor inválido: " + e.getValorInvalido());
+						+ ". Valor inválido: " + e.getValorInvalido());
 		} catch (SaldoInsuficienteException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
-								+ ". Saldo disponível: " + e.getSaldoDisponivel());
+						+ ". Saldo disponível: " + e.getSaldoDisponivel());
 		}
 		
 		try {
