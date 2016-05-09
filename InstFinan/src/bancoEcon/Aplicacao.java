@@ -102,7 +102,8 @@ public class Aplicacao {
 		
 		try {
 			ci1.depositar(200.00);
-			System.out.println("Olá! " + ci1.toString() + ", " + "Depósito de R$" +  ci1.valorDepositado + " feito com sucesso");
+			System.out.println("Olá! " + ci1.toString() + ", " + "Depósito de R$" 
+					+  ci1.valorDepositado + " feito com sucesso");
 		} catch (ValorInvalidoException e) {
 			System.out.println("Olá! " + ci1.toString() + ", " + "Erro: " + e.getMessage() 
 					+ ". Valor Inválido " + e.getValorInvalido());
