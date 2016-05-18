@@ -1,7 +1,8 @@
 package bancoEcon;
 
-/*Exceção que representa saldo insuficiente em uma determinada conta.*/
+// Exceção que representa saldo insuficiente em uma determinada conta.
 public class SaldoInsuficienteException extends Exception {
+	
 	private double saldoDisponivel;
 	
 	/* 

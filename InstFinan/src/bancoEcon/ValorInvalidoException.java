@@ -2,6 +2,7 @@ package bancoEcon;
 
 /*Exceção que representa um valor inválido.*/
 public class ValorInvalidoException extends Exception {
+	
 	private double valorInvalido;
 	
 	/* 
@@ -13,7 +14,7 @@ public class ValorInvalidoException extends Exception {
 		this.valorInvalido = valorInvalido;
 	}
 	
-	/* Método que acessa o valor inválido. */
+	// Método que acessa o valor inválido.
 	public double getValorInvalido(){
 		return valorInvalido;
 	}
